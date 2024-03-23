@@ -33,7 +33,7 @@ const MainContent = () => {
           <img
             src={heroImage}
             alt=""
-            className="rounded-3xl border-4 border-solid border-brightYellow shadow-lg"
+            className="rounded-3xl border-4 border-solid border-brightYellow shadow-xl"
           />
         </div>
       </div>
