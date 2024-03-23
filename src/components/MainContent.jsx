@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import heroImage from "../assets/images/pexels-canva-studio-3153198.jpg";
 
-const Hero = () => {
+const MainContent = () => {
   return (
     <section id="hero">
       {/* Flex Container */}
@@ -11,16 +11,18 @@ const Hero = () => {
         <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
           <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
             <u>Tech-Monks</u>
-            <br></br> Business idea in mind - connect with us.
+          </h1>
+          <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left mt-0">
+            Transform your technological journey with Tech-Monks.
           </h1>
           <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-            Manage makes it simple for software teams to plan day-to-day tasks
-            while keeping the larger team goals in view.
+            Fostering expertise, sparking innovation, and shaping solutions that
+            redefine excellence.
           </p>
           <div className="flex justify-center md:justify-start">
             <Link
               to="#"
-              className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              className="p-3 px-6 pt-2 text-white bg-brightYellow rounded-full baseline hover:bg-brightYellowLight"
             >
               Get Started
             </Link>
@@ -31,11 +33,7 @@ const Hero = () => {
           <img
             src={heroImage}
             alt=""
-            style={{
-              borderRadius: "200px",
-              border: "5px solid rgb(247, 174, 28)",
-              boxShadow: "0px 5px 5px rgba(0,0,0,0.3)",
-            }}
+            className="rounded-3xl border-4 border-solid border-brightYellow shadow-lg"
           />
         </div>
       </div>
@@ -43,4 +41,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default MainContent;
