@@ -28,7 +28,7 @@ const MainContent = () => {
             </Link>
           </div>
         </div>
-        {/* Image */}
+
         <div className="md:w-1/2">
           <img
             src={heroImage}

@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url('../src/assets/images/bg-tablet-pattern.svg');
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position: 90% -25%;
-}
-
 #cta {
-  background-image: url('./assets/images/bg-simplify-section-desktop.svg');
+  background-image: url("./assets/images/bg-simplify-section-desktop.svg");
   background-repeat: no-repeat;
 }
 
@@ -21,7 +14,7 @@ body {
   }
 
   #cta {
-    background-image: url('./assets/images/bg-simplify-section-mobile.svg');
+    background-image: url("./assets/images/bg-simplify-section-mobile.svg");
   }
 }
 
@@ -70,4 +63,65 @@ body {
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.custom-image-container {
+  height: 50rem;
+  width: 50rem;
+  right: 6rem;
+  z-index: -9999;
+  top: -8.5rem;
+}
+
+.custom-image {
+  transform: rotate(90deg);
+  opacity: 0.8;
+}
+
+/* Media query for small screens (up to 768px) */
+@media (max-width: 768px) {
+  .custom-image-container {
+    height: 25rem;
+    width: 25rem;
+    right: 6rem;
+    z-index: -9999;
+    top: -3rem;
+  }
+
+  .custom-image {
+    transform: rotate(90deg);
+    opacity: 0.8;
+  }
+}
+
+/* Media query for medium screens (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .custom-image-container {
+    height: 25rem;
+    width: 25rem;
+    right: 1rem;
+    z-index: -9999;
+    top: 4rem;
+  }
+
+  .custom-image {
+    transform: rotate(90deg);
+    opacity: 0.8;
+  }
+}
+
+/* Media query for large screens (greater than 1024px) */
+@media (min-width: 1025px) {
+  .custom-image-container {
+    height: 50rem;
+    width: 50rem;
+    right: 6rem;
+    z-index: -9999;
+    top: -8.5rem;
+  }
+
+  .custom-image {
+    transform: rotate(90deg);
+    opacity: 0.8;
+  }
 }
