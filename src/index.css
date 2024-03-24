@@ -79,7 +79,21 @@
 }
 
 /* Media query for small screens (up to 768px) */
-@media (max-width: 768px) {
+@media (max-width: 468px) {
+  .custom-image-container {
+    height: 20rem;
+    width: 20rem;
+    right: 0rem;
+    z-index: -9999;
+    top: -2rem;
+  }
+
+  .custom-image {
+    transform: rotate(90deg);
+    opacity: 0.8;
+  }
+}
+@media (min-width: 468px) and (max-width: 768px) {
   .custom-image-container {
     height: 25rem;
     width: 25rem;
