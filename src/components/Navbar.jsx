@@ -17,7 +17,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="pt-2">
-            <img src={companyLogo} alt="" />
+            <h3 className="text-base font-bold md:mb-4 md:mt-4">Tech-Monks</h3>
+            {/* <img src={companyLogo} alt="" /> */}
           </div>
           {/* Menu Items */}
           <div className="hidden space-x-6 md:flex">

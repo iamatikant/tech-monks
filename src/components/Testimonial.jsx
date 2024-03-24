@@ -5,11 +5,11 @@ import { testimonialsData } from "../assets/data/testimonialsData";
 
 const Testimonial = () => {
   return (
-    <section id="testimonials">
-      <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
-        <h2 className="text-4xl font-bold text-center">
-          What's Different About Tech-Monks?
-        </h2>
+    <section id="testimonials" className="mt-16">
+      <div className="mx-auto container px-4">
+        <h2 className="text-4xl font-bold">Hear from our customers</h2>
+      </div>
+      <div className="max-w-6xl px-5 mx-auto mt-16 text-center">
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           {testimonialsData.map(({ id, image, content, name }) => {
             return (

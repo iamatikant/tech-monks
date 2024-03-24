@@ -6,6 +6,7 @@ import Features from "./components/Features.jsx";
 import Testimonial from "./components/Testimonial";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <MainContent />
       <Features />
+      <AboutUs />
       <Testimonial />
       <CallToAction />
       <Footer />

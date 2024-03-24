@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Features = () => {
   return (
-    <section id="features">
+    <section id="features" className="space-y-12 mb-12">
       <div className="mx-auto container px-4">
         <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
           Our services
@@ -37,7 +37,6 @@ const Features = () => {
                       </h3>
                     </div>
                   </div>
-
                   <div>
                     <h3 className="hidden mb-4 text-lg font-bold md:block">
                       {title}

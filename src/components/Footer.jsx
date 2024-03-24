@@ -19,7 +19,11 @@ const Footer = () => {
           </div>
           {/* Logo */}
           <div>
-            <img src={companyLogoWhite} className="h-8" alt="" />
+            {/* <img src={companyLogoWhite} className="h-8" alt="" />
+             */}
+            <h3 className="text-base font-bold md:mb-4 md:mt-4 text-white">
+              Tech Monks
+            </h3>
           </div>
           {/* Social Links Container */}
           <div className="flex justify-center space-x-4">
