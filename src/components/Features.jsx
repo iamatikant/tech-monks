@@ -11,7 +11,7 @@ const Features = () => {
         </h2>
         <div className="container flex flex-col mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
           <div className="flex flex-col space-y-12 md:w-1/2">
-            <div className="flex flex-wrap gap-8 max-w-md:flex-col">
+            <div className="flex flex-wrap gap-8 flex-col md:flex-row">
               {featuresData.map((item) => {
                 return (
                   <div className="md:w-2/5 transform transition-transform duration-300 ease-in-out hover:-translate-y-3 h-72">
